@@ -77,6 +77,7 @@ new_user.is_logged_in = True
 create_blog_post(new_user)
 
 
+
 def logging_decorator(function):
     def wrapper(*args, **kwargs):
         print(f"You called {function.__name__}{args}")
