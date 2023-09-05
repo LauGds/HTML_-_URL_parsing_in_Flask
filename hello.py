@@ -92,4 +92,3 @@ def a_function(n1, n2, n3):
 
 a_function(2, 4, 6)
 
-
